@@ -1,0 +1,17 @@
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+  "title": "Aqueeb's 3rd Todo",
+  "content": "is also created by me and I have to complete it."
+}
+
+###
+DELETE http://localhost:3001/todo/delete/64a9bb72de76e4d7f08924bd
+
+###
+
+PUT http://localhost:3001/todo/complete/64a9bb48de76e4d7f08924b9
